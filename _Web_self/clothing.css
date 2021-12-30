@@ -1,0 +1,168 @@
+.container {
+    padding: 20px;
+}
+
+.form {
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+.form-row {
+    padding: 10px;
+}
+
+#bt {
+    padding: 10px;
+}
+
+#bt a {
+    text-decoration: none;
+}
+
+.card-deck a {
+    text-decoration: none;
+    color: black;
+}
+
+.card-deck {
+    margin-left: 90px;
+}
+
+.card {
+    width: 300px;
+    height: 550px;
+}
+
+.icon {
+    margin-left: 30px;
+}
+
+.icon a {
+    color: black;
+}
+
+.mb-2 a {
+    height: 30px;
+    font-weight: bold;
+}
+
+.btn {
+    animation: doimau ease 2s infinite;
+}
+
+@keyframes doimau {
+    from {
+        color: black;
+        font-weight: bold;
+        transition: 3s;
+    }
+    to {
+        color: brown;
+        font-weight: bold;
+    }
+}
+
+@keyframes doimaunen {
+    from {
+        background-color: yellow;
+    }
+    to {
+        background-color: orangered;
+    }
+}
+
+.mb-2 {
+    animation: doimaunen ease 5s infinite;
+}
+
+#doimau {
+    color: black;
+}
+
+.item .info {
+    /* display: none; */
+    visibility: hidden;
+}
+
+.items:hover .item .info {
+    /* display: block; */
+    visibility: visible;
+}
+
+.item .info .hide {
+    visibility: hidden;
+}
+
+.info {
+    margin-left: -9px;
+}
+
+.info {
+    font-size: 13px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    transition: 0.05s;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.menu {
+    display: flex;
+}
+
+.text-body-header {
+    text-align: center;
+}
+
+.sortby {
+    float: right;
+}
+
+.body-page {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.kind-of-choose {
+    display: flex;
+    justify-content: none;
+}
+
+.body-products {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    padding: 30px 0;
+}
+
+.product-item img {
+    width: 100%;
+}
+
+.line {
+    width: 100%;
+    border-bottom: 1px solid black;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.text-in-line {
+    background-color: white;
+    padding: 50px;
+}
+
+.footer-seemore {
+    margin: 30px 0;
+}
+
+.footer {
+    background-color: rgb(246, 246, 250);
+    margin: 30px 0;
+}
